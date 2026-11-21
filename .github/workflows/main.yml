@@ -9,7 +9,7 @@ on:
     - cron: '00 14 * * *' # 7.30 Pm IST
     - cron: '00 06 * * 1-5' #11.30 am IST  Monday to Friday
      
-  jobs:
+jobs:
    run-postman-tests:
      runs-on: ubuntu-latest
 
